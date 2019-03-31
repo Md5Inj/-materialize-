@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.4/fullpage.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.4/fullpage.min.js"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
     <script src="js/main.js"></script>
 </head>
@@ -26,7 +28,8 @@
                     </div>
                     <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                     <ul class="menu col s12 offset-s4  hide-on-med-and-down" id="nav-mobile">
-                        <li><a href="#">Цены</a></li>
+                        <li><a href="#second">Цены</a></li>
+                        <li><a href="#">Как доехать?</a></li>
                         <li><a href="#">Фотографии</a></li>
                         <li><a href="#">Достопремечательности</a></li>
                         <li><a href="#">Контакты</a></li>
@@ -42,39 +45,52 @@
             </nav>
             <div class="valign-wrapper fText">
                 <h1 class="center-align">Туры по карелии</h1>
-                i.
             </div>
         </div>
 
-        <div class="second row">
+        <div class="row" id="second">
             <div class="text">
-                <span></span>
+                <h1 class="center-align">Цены на отели</h1>
             </div>
             <div class="table">
                 <table class="responsive-table highlight striped">
                     <thead>
                         <tr>
-                            <th>Name</th>
-                            <th>Item Name</th>
-                            <th>Item Price</th>
+                            <th>Отель</th>
+                            <th>Описание отеля</th>
+                            <th>Цена</th>
+                            <th></th>
                         </tr>
                     </thead>
 
                     <tbody>
                         <tr>
-                            <td>Alvin</td>
-                            <td>Eclair</td>
-                            <td>$0.87</td>
+                            <td>Суоярви</td>
+                            <td>Загородный дом «Дом на озере Суоярви» находится в Суоярви. К услугам гостей частный
+                                пляж, патио с видом на озеро, бесплатный Wi-Fi и частная парковка.</td>
+                            <td>972 BYN</td>
+                            <td><a class="waves-effect waves-light btn"
+                                    href="https://www.booking.com/hotel/ru/country-house-suoyarvi.ru.html?aid=394852;label=yandex-W5qFmxNBXZHnRtDL1HQNZA-6065086063;sid=f51646f12c1cdbeb9bc5df9b792d3036;all_sr_blocks=185969701_101811603_6_0_0;checkin=2019-07-19;checkout=2019-07-25;dest_id=-3013424;dest_type=city;dist=0;hapos=5;highlighted_blocks=185969701_101811603_6_0_0;hpos=5;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1554037238;srpvid=935e5b7b6ccb0023;type=total;ucfs=1&#hotelTmpl"
+                                    target="_blank">Закзать</a></td>
                         </tr>
                         <tr>
-                            <td>Alan</td>
-                            <td>Jellybean</td>
-                            <td>$3.76</td>
+                            <td>Comfort Lodge</td>
+                            <td>Лодж Comfort расположен в городе Суоярви. Гости лоджа могут отдохнуть на террасе.
+                                Лодж располагает гостиной и полностью оборудованной кухней с духовкой и микроволновой
+                                печью. В лодже также имеется 1 ванная комната с душем.
+                                К услугам гостей сауна. Гости могут отдохнуть в общем лаундже.</td>
+                            <td>1945 BYN</td>
+                            <td><a class="waves-effect waves-light btn" href="https://www.booking.com/hotel/ru/gostevoi-dom-quot-komfort-quot.ru.html?aid=394852;label=yandex-W5qFmxNBXZHnRtDL1HQNZA-6065086063;sid=f51646f12c1cdbeb9bc5df9b792d3036;all_sr_blocks=433247901_130158973_10_0_0;checkin=2019-07-19;checkout=2019-07-25;dest_id=-3013424;dest_type=city;dist=0;hapos=4;highlighted_blocks=433247901_130158973_10_0_0;hpos=4;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1554037238;srpvid=935e5b7b6ccb0023;type=total;ucfs=1&#hotelTmpl" target="_blank">Закзать</a></td>
                         </tr>
                         <tr>
-                            <td>Jonathan</td>
-                            <td>Lollipop</td>
-                            <td>$7.00</td>
+                            <td>Мини-отель "Комфорт"</td>
+                            <td>Мини-гостиница «Комфорт» находится в городе Суоярви. Гостям предоставляется бесплатный
+                                Wi-Fi.
+                                Все номера оснащены телевизором со спутниковыми каналами, микроволновой печью и
+                                электрическим чайником. Также в распоряжении гостей собственная или общая ванная комната
+                                с душем.</td>
+                            <td>350 BYN</td>
+                            <td><a class="waves-effect waves-light btn" href="https://www.booking.com/hotel/ru/mini-comfort-kondopoga.ru.html?aid=394852&label=yandex-W5qFmxNBXZHnRtDL1HQNZA-6065086063&sid=f51646f12c1cdbeb9bc5df9b792d3036&all_sr_blocks=117807501_102730635_0_0_0&checkin=2019-07-19&checkout=2019-07-25&dest_id=-3013424&dest_type=city&hapos=1&highlighted_blocks=117807501_102730635_0_0_0&hpos=1&sr_order=popularity&srepoch=1554037238&srpvid=935e5b7b6ccb0023&ucfs=1&from=searchresults;highlight_room=#hotelTmpl" target="_blank">Закзать</a></td>
                         </tr>
                     </tbody>
                 </table>

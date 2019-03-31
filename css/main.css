@@ -62,13 +62,12 @@ nav {
     margin: 0;
 }
 
-.second {
-    background: url('../img/secondBG.jpg') no-repeat;
-    background-size: cover;
+#second {
+    background-color: #fff;
 }
 
-.second>.table {
-    padding: 5%;
+#second>.table {
+    padding: 0 5% 5% 5%;
 }
 
 .fText {
@@ -79,4 +78,8 @@ nav {
     align-items: center;
     color: white;
     text-shadow: 0px 1px 3px black;
+}
+
+.table > table > tbody > tr > td:first-child {
+    font-weight: bold;
 }
