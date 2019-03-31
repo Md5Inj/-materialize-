@@ -81,14 +81,9 @@ nav {
 }
 
 #third {
-    background: linear-gradient(180deg, #26a69a, 70%, #93f3ea);
+    background: #fafafa;
     background-attachment: fixed;
-    padding: 10%;
-}
-
-#third>.text>h1 {
-    color: white;
-    text-shadow: 1px 1px 1px black;
+    padding: 2% 10% 4% 10%;
 }
 
 #third>div>.collection {
@@ -136,4 +131,36 @@ nav {
 
 .material-placeholder {
     padding: 5%;
+}
+
+#fifth {
+    background-color: #6a7b6a21;
+    padding: 0 15% 0 15%;
+}
+
+#fifth > div > h1 {
+    padding: 4% 0 2% 0;
+}
+
+.card-image {
+    padding-top: 1%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.card-reveal > p {
+    font-size: 1.3em;
+}
+
+.card {
+    width: 70%;
+    margin-left: 15%;
+}
+
+.page-footer {
+    padding-top: 20px;
+    color: #fff;
+    background-color: #26a69a;
 }
