@@ -133,3 +133,7 @@ nav {
     text-indent: 1.5em;
     font-size: 1.2em;
 }
+
+.material-placeholder {
+    padding: 5%;
+}
