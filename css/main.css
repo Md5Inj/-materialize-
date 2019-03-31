@@ -62,10 +62,6 @@ nav {
     margin: 0;
 }
 
-#second {
-    background-color: #fff;
-}
-
 #second>.table {
     padding: 0 5% 5% 5%;
 }
@@ -80,6 +76,60 @@ nav {
     text-shadow: 0px 1px 3px black;
 }
 
-.table > table > tbody > tr > td:first-child {
+.table>table>tbody>tr>td:first-child {
     font-weight: bold;
+}
+
+#third {
+    background: linear-gradient(180deg, #26a69a, 70%, #93f3ea);
+    background-attachment: fixed;
+    padding: 10%;
+}
+
+#third>.text>h1 {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+#third>div>.collection {
+    max-width: 20%;
+    margin-left: 40%;
+}
+
+.tab>a {
+    font-weight: 500;
+    color: rgb(92, 170, 222) !important;
+}
+
+.tabs .tab a:focus, .tabs .tab a:focus.active {
+    background-color: #61b1e829;
+}
+
+.tabs .indicator {
+    background-color: #61b2e8;
+}
+
+#test1 {
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+#test1 > div > iframe {
+    border: none;
+}
+
+#test2 {
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+#test2 > div > iframe {
+    border: none;
+}
+
+#second > .table > p {
+    text-indent: 1.5em;
+    font-size: 1.2em;
 }
